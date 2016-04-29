@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2016-04-29T16:03:07.000Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>xenial problems</title>
+    <link href="http://yoursite.com/2016/04/29/xenial-problems/"/>
+    <id>http://yoursite.com/2016/04/29/xenial-problems/</id>
+    <published>2016-04-29T15:49:34.000Z</published>
+    <updated>2016-04-29T16:03:07.000Z</updated>
+    
+    <content type="html">&lt;p&gt;###Ubuntu 16.04 LTS xenial problems&lt;/p&gt;
+&lt;p&gt;Just tasted the recently released Ubuntu 16.04 LTS xenial, came across some problems.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The default python on Ubuntu 16.04 LTS xenial is v3.5, and there’s no python v2.7.&lt;br&gt;If you want to install Python2, a “python-minimal” package is recommended by the system.&lt;br&gt;It is a minimal subset of the python language, lacks of some essential modules.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;For instance, no “pipes” module, the module is an interface to shell pipelines.&lt;br&gt;This “pipes” module is required on managed node for ansible.&lt;/p&gt;
+&lt;p&gt;So you have to install the full python2 on Ubuntu 16.04.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;sudo apt install python&lt;em&gt;*&lt;/em&gt;&lt;/em&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;###Ubuntu 16.04 LTS xenial problems&lt;/p&gt;
+&lt;p&gt;Just tasted the recently released Ubuntu 16.04 LTS xenial, came across some problems.&lt;/p&gt;
+&lt;ol&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
