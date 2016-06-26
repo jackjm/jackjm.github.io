@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-04-29T16:03:07.000Z</updated>
+  <updated>2016-05-01T02:14:32.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo usage notes</title>
+    <link href="http://yoursite.com/2016/04/30/hexo-usage-notes/"/>
+    <id>http://yoursite.com/2016/04/30/hexo-usage-notes/</id>
+    <published>2016-04-30T07:33:44.000Z</published>
+    <updated>2016-05-01T02:14:32.000Z</updated>
+    
+    <content type="html">&lt;p&gt;Hexo is a static blog created by XXX.&lt;/p&gt;
+&lt;p&gt;hexo n&lt;/p&gt;
+&lt;p&gt;hexo g&lt;/p&gt;
+&lt;p&gt;hexo p&lt;/p&gt;
+&lt;p&gt;hexo d&lt;/p&gt;
+&lt;p&gt;The posts are located at sources/____posts/, you can create a symbolic link from the hexo folder to&lt;br&gt;dropbox or onedrive folder, by this mean you can backup the source text, at the same time you can&lt;br&gt;have extra benefits: edit the markdown files with a powerful editor, only if the editor has dropbox&lt;br&gt;or onedrive &lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Hexo is a static blog created by XXX.&lt;/p&gt;
+&lt;p&gt;hexo n&lt;/p&gt;
+&lt;p&gt;hexo g&lt;/p&gt;
+&lt;p&gt;hexo p&lt;/p&gt;
+&lt;p&gt;hexo d&lt;/p&gt;
+&lt;p&gt;The posts are located at sources/___
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>xenial problems</title>
