@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-05-01T02:14:32.000Z</updated>
+  <updated>2017-03-29T15:19:42.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,63 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>resume</title>
+    <link href="http://yoursite.com/2017/03/29/resume/"/>
+    <id>http://yoursite.com/2017/03/29/resume/</id>
+    <published>2017-03-29T15:18:59.000Z</published>
+    <updated>2017-03-29T15:19:42.000Z</updated>
+    
+    <content type="html">&lt;p&gt;Really need a job.&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Really need a job.&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2016/06/26/Hexo-blog-back-up-plan/"/>
+    <id>http://yoursite.com/2016/06/26/Hexo-blog-back-up-plan/</id>
+    <published>2016-06-26T14:02:00.000Z</published>
+    <updated>2016-06-26T16:18:07.000Z</updated>
+    
+    <content type="html">&lt;hr&gt;
+&lt;p&gt;title: Hexo blog back up plan&lt;br&gt;date: 2016-06-26 22:02:00&lt;br&gt;tags:&lt;/p&gt;
+&lt;p&gt;Hexo is an efficient static pages generator.&lt;/p&gt;
+&lt;p&gt;Here’s a backup plan for Hexo system:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Create a symbolic link from the Hexo source/_posts directory to a Dropbox directory.&lt;br&gt;So all the source files, i.e. markdown files, of the Hexo will be synced to Dropbox server, and&lt;br&gt;all editing versions is preserved by the “previous versions” function of Dropbox.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Using the Hexo backup plugin Git-backup.&lt;br&gt;Install the git-backup plugin, &lt;a href=&quot;https://github.com/coneycode/hexo-git-backup&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/coneycode/hexo-git-backup&lt;/a&gt;, and manage the backup&lt;br&gt;with init.d or supervisor.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Backup with Crashplan&lt;br&gt;Backup the whole Hexo directory to another computer/server with crashplan.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Deploy the blog to multiple host servers.&lt;br&gt;There are many Pages hosts:&lt;br&gt;Github Pages&lt;br&gt;Gitlab Pages&lt;br&gt;&lt;a href=&quot;http://docs.gitlab.com/ee/pages/README.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://docs.gitlab.com/ee/pages/README.html&lt;/a&gt;&lt;br&gt;Bitbucket Pages&lt;br&gt;Oschina Pages&lt;br&gt;&lt;a href=&quot;https://www.oschina.net/news/73980/gitosc-pages&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://www.oschina.net/news/73980/gitosc-pages&lt;/a&gt;&lt;br&gt;Coding.net Pages&lt;br&gt;&lt;a href=&quot;https://coding.net/help/doc/pages/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://coding.net/help/doc/pages/&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a href=&quot;http://sebduggan.com/blog/deploy-your-website-changes-using-git/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://sebduggan.com/blog/deploy-your-website-changes-using-git/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://code.visualstudio.com/Docs/languages/markdown&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://code.visualstudio.com/Docs/languages/markdown&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;p&gt;title: Hexo blog back up plan&lt;br&gt;date: 2016-06-26 22:02:00&lt;br&gt;tags:&lt;/p&gt;
+&lt;p&gt;Hexo is an efficient static pages generator.&lt;/p&gt;
+&lt;p&gt;Here’
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>hexo usage notes</title>
